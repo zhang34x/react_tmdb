@@ -7,7 +7,60 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+select {
+  font-size: 20px;
+}
+
+.appNavigation {
+  border-bottom: 3px solid #F0F0F0;
+  padding: 10px;
+  text-align: left;
+}
+
+.appNavigation a {
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.filterByGenre {
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+.movie {
+  background-color: #F0F0F0;
+  display: inline-block;
+  margin: 3px;
+  vertical-align: top;
+  width: 30%;
+}
+
+.operationSection {
+  display: flex;
+  margin: 0px auto 15px auto;
+  max-width: 990px;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+.sortOrder {
+  display: inline-block;
+  margin: 0px 3px;
 }
